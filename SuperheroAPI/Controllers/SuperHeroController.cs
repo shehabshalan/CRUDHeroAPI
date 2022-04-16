@@ -7,11 +7,11 @@ namespace SuperheroAPI.Controllers
 
     public class SuperHeroController : ControllerBase
     {
-        private static List<SuperHero> heros = new List<SuperHero>
+/*        private static List<SuperHero> heros = new List<SuperHero>
         {
               new SuperHero { Id = 1, Name = "s", FirstName ="d", LastName="d", Place="d"},
                new SuperHero { Id = 2, Name = "s", FirstName ="d", LastName="d", Place="d"}
-        };
+        };*/
         private readonly DataContext context;
 
         public SuperHeroController(DataContext context)
